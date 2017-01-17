@@ -19,7 +19,6 @@ namespace _01.Distance
             var vThree = ((speed + (speed * 0.1)) - ((speed + (speed * 0.1)) * 0.05)) * (timeThree / 60.0);
             var v = vOne + vTwo + vThree;
             Console.WriteLine("{0:F2}", v);
-            Console.WriteLine(Math.Pow(v,2));
         }
     }
 }
