@@ -30,7 +30,7 @@ namespace _02.Change_Tiles
             else
             {
                 var diff = sum - buget;
-                Console.WriteLine($"You'll need {diff:F2} lv more.",);
+                Console.WriteLine($"You'll need {diff:F2} lv more.");
             }
         }
     }
